@@ -1,8 +1,13 @@
 # 11ty
 Step by step guide Create 11ty basic project
 
+Create folder 11tyStepByStep
+```
+mkdir 11tyStepByStep
+cd 11tyStepByStep
+```
 
-### install step by step
+Install step by step
 ```
 npm init -y
 npm i --save-dev @11ty/eleventy
@@ -10,7 +15,7 @@ echo '# 11ty, Hello World!' > README.md
 echo index.html
 ```
 
-add this code to index.html
+Add this code to index.html
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -66,11 +71,9 @@ link: https://github.com/philipwalton/solved-by-flexbox/blob/master/demos/vertic
 ```
 
 Run
-
 ```
 npx @11ty/eleventy --serve
 ```
 
 ##### [http://localhost:8080](http://localhost:8080/)
-
 ##### [http://localhost:8080/README/](http://localhost:8080/README/)
