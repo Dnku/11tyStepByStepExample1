@@ -12,9 +12,8 @@ Install step by step
 npm init -y
 npm i --save-dev @11ty/eleventy
 echo '# 11ty, Hello World!' > README.md
-echo index.html
 ```
-
+create menually echo index.html
 Add this code to index.html
 ```
 <!DOCTYPE html>
